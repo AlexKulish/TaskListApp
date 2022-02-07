@@ -29,6 +29,7 @@
 		59B6FBC327B13F5500F50D06 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 59B6FBC227B13F5500F50D06 /* FirebaseStorage */; };
 		59B6FBC527B13F5500F50D06 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 59B6FBC427B13F5500F50D06 /* FirebaseStorageCombine-Community */; };
 		59B6FBC727B13F5500F50D06 /* FirebaseStorageSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 59B6FBC627B13F5500F50D06 /* FirebaseStorageSwift-Beta */; };
+		59B6FBCB27B14CDA00F50D06 /* TaskRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B6FBCA27B14CDA00F50D06 /* TaskRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		599CF3CC27A3ED2200F685F1 /* TaskCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCellViewModel.swift; sourceTree = "<group>"; };
 		599CF3CE27A3F75A00F685F1 /* TaskListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewModel.swift; sourceTree = "<group>"; };
 		59B6FB7C27AD443C00F50D06 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		59B6FBCA27B14CDA00F50D06 /* TaskRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		599CF3B827A2D76900F685F1 /* TaskListApp */ = {
 			isa = PBXGroup;
 			children = (
+				59B6FBC927B14CC800F50D06 /* Repositories */,
 				599CF3CB27A3ECF700F685F1 /* ViewModels */,
 				599CF3CA27A2E10400F685F1 /* Views */,
 				599CF3C727A2D90200F685F1 /* Model */,
@@ -129,6 +132,14 @@
 				599CF3CE27A3F75A00F685F1 /* TaskListViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		59B6FBC927B14CC800F50D06 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				59B6FBCA27B14CDA00F50D06 /* TaskRepository.swift */,
+			);
+			name = Repositories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59B6FBCB27B14CDA00F50D06 /* TaskRepository.swift in Sources */,
 				599CF3BC27A2D76900F685F1 /* TaskListView.swift in Sources */,
 				599CF3CD27A3ED2200F685F1 /* TaskCellViewModel.swift in Sources */,
 				599CF3CF27A3F75A00F685F1 /* TaskListViewModel.swift in Sources */,
